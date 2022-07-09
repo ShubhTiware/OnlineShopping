@@ -40,6 +40,15 @@ namespace Banking
                 throw new Exception("Balance Overflow");
             }
         }
+        // Updated by Suraj Dhande
 
+        public void Payment(double amount)
+        {
+            this.Balance += amount;
+            if (this.Balance >= 250000)
+            {
+                throw new Exception("Balance Overflow");
+            }
+        }
     }
 }

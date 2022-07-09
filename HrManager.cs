@@ -9,6 +9,8 @@ namespace HrManager
     public class HrManager : Account
     {
         //Auto property
+        // comment from wajid
+        
 
         public double sal { get; set; }
 

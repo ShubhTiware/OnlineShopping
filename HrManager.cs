@@ -14,6 +14,11 @@ namespace HrManager
 
        public HrManager():base()
         {
+    //suhas 
+        }
+
+        public void total sal()
+        {
 
         }
 
